@@ -24,16 +24,6 @@ from reportlab.graphics import shapes
 from reportlab.graphics.shapes import Drawing, Group, Circle, Rect, String, STATE_DEFAULTS
 
 
-#**********************************************************************************************************
-#*******************************FASE D'IMPORTACIÓ d'EXCELS*************************************************
-#**********************************************************************************************************
-
-#A continuació, utilitzo el mètode read_excel de Pandas per llegir*****************************************
-#dades del fitxer Excel.***********************************************************************************
-#La forma més senzilla de cridar aquest mètode és passar-li el nom del fitxer.*****************************
-#Si no s'especifica cap nom del full ( o número començant per zero),***************************************
-#es llegeix el primer full de l'índex.*********************************************************************
-
 competencies=[
 
     'Competència 1: Traduir un problema a llenguatge matemàtic o a una representació matemàtica utilitzant variables, símbols, diagrames i  models adequats.',
@@ -57,6 +47,8 @@ dimensions=[
     'Dimensió: Comunicació i representació'
 
 ]
+
+#*******************************FASE D'IMPORTACIÓ d'EXCELS*************************************************
 
 llibre_excel = 'prova_df.xlsx'
 dfa=pd.read_excel(llibre_excel, sheet_name='a')#importo la fulla 'a'***************************************
