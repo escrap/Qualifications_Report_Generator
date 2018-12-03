@@ -1,6 +1,6 @@
-#com que vull escriure la data, importo time**************************************************************
+
 import time
-#conjunt de imports de la reportlab. www.reportlab.com****************************************************
+#imports from REPORTLAB
 from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER, TA_JUSTIFY
 from reportlab.lib.pagesizes import  A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
@@ -10,13 +10,13 @@ from reportlab.platypus import PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
-#importo els mòduls de pandas amb atenció a la connexió amb Excel *****************************************
+#import PANDAS
 import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
-#importo el mòdul de numpy ********************************************************************************
+#import NUMPY 
 import numpy as np
-#importo el modul de dibuix
+#import from REPORTLAB
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.graphics.charts.barcharts import HorizontalBarChart
 from reportlab.graphics.charts.barcharts import VerticalBarChart
