@@ -6,11 +6,12 @@ Qualifications Report Generator
 Python code to generate qualification reports pulling data from Excel
 
 ### Description
-Python code to generate qualification reports pulling data from Excel. Basically data is pulled from an Excel \
-spreadsheet and stored in 2 dataframes. After merging them and dropping unuseful columns, code iterates trhough \
-every row (student) and extract information about qualifications. 
-After this, the code starts a PDF creation for every student in which data is not only displayed as data itself \
-but also appears prompted as a graph.
+Python code to generate qualification reports pulling data from Excel. Basically data is pulled from an Excel
+spreadsheet and stored in 2 dataframes. After merging them and dropping unuseful columns, code iterates
+trhough every row (student) and extract information about qualifications.After this, the code starts a
+PDF creation for every student in which data is not only displayed as data itself but also appears
+prompted as a graph.
+
 
 ### Files used
 In this project we are using four.png files:
