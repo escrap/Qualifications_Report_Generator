@@ -21,7 +21,7 @@ In this project we are using four.png files:
 - logo_manyanet.png
 
 In addition there is a Python file with the code
-- bikeshare.py
+- qualy_gen.py
 
 And finally the data source:
 -matematiques_1trimestre.xlsx
